@@ -1,0 +1,10 @@
+﻿Compilador de expresiones aritméticas simples
+
+Expre: Expresión
+Num:   Número
+Oper:  Operación
+
+Expre -> Num     | – Expre
+Oper  -> + Expre | – Expre | * Expre | / Expre
+Num   -> 0X | 1X | 2X | 3X | 4X | 5X | 6X | 7X | 8X | 9X
+X     -> Ɛ  | Oper
